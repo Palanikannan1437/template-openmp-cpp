@@ -3,7 +3,7 @@ tasks:
     sudo apt -y install cmake
     cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
     cmake --build build --target all 
-    sudo apt-get install libomp-dev
+    sudo apt-get -y install libomp-dev
   command: |
     export OMP_NUM_THREADS=8
     gcc -o test -fopenmp main.c
