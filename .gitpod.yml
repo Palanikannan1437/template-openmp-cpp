@@ -5,7 +5,7 @@ tasks:
     cmake --build build --target all 
     sudo apt-get -y install libomp-dev
     sudo apt-get -y install libopenmpi-dev
-    sudo apt-get install openmpi-bin
+    sudo apt-get -y install openmpi-bin
   command: |
     export OMP_NUM_THREADS=8
     gcc -o test -fopenmp main.c
