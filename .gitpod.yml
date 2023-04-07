@@ -4,6 +4,8 @@ tasks:
     cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
     cmake --build build --target all 
     sudo apt-get -y install libomp-dev
+    sudo apt-get -y install libopenmpi-dev
+    sudo apt-get install openmpi-bin
   command: |
     export OMP_NUM_THREADS=8
     gcc -o test -fopenmp main.c
@@ -11,5 +13,5 @@ tasks:
 vscode:
   extensions:
     - twxs.cmake
-    - franneck94.Vscode-C-Cpp-Runner
+    - franneck94.c-cpp-runner
     - webfreak.debug
