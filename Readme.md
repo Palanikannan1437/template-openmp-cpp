@@ -1,8 +1,8 @@
-## OpenMp environment Gitpod 🍊
+## OpenMp and MPI environment Gitpod 🍊
 
-Stuck with setting up OpenMP on your Mac/Windows machine locally?
+Stuck with setting up OpenMP and MPI on your Mac/Windows machine locally?
 
-Here's a pre-configured Gitpod Template for OpenMp! 
+Here's a pre-configured Gitpod Template for OpenMp and MPI! 
 
 Simply click on the button below and start coding! 🚀
 
